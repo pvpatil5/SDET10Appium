@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81719" started-at="2021-03-13T06:16:00Z" finished-at="2021-03-13T06:17:21Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="42841" started-at="2021-03-13T06:16:00Z" finished-at="2021-03-13T06:16:43Z">
+      <class name="practice.ParallelExecution">
+        <test-method status="PASS" signature="parallel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:practice.ParallelExecution@262b2c86]" name="parallel" duration-ms="42733" started-at="2021-03-13T11:46:00Z" finished-at="2021-03-13T11:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Redmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[d6c768cf9804]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallel -->
+      </class> <!-- practice.ParallelExecution -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="38565" started-at="2021-03-13T06:16:43Z" finished-at="2021-03-13T06:17:21Z">
+      <class name="practice.ParallelExecution">
+        <test-method status="PASS" signature="parallel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:practice.ParallelExecution@569cfc36]" name="parallel" duration-ms="38556" started-at="2021-03-13T11:46:43Z" finished-at="2021-03-13T11:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallel -->
+      </class> <!-- practice.ParallelExecution -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
